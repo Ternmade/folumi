@@ -40,6 +40,7 @@ p { margin: 0 0 16px; overflow-wrap: anywhere; }
 .lead { font-size: 1.15rem; max-width: 620px; margin-bottom: 28px; }
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; max-width: 100%; padding: 12px 22px; border-radius: 12px; background: var(--accent); color: var(--card); text-decoration: none; text-align: center; }
 .button:hover { background: #204a38; }
+.stores { display: flex; flex-wrap: wrap; gap: 12px; }
 .availability { color: var(--muted); font-size: .9rem; margin-top: 14px; }
 .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
 article { border: 1px solid var(--line); border-radius: 20px; background: var(--card); padding: 28px; }
